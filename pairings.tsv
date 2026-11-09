@@ -1,0 +1,7 @@
+# Mix Pilot community pairings: transitions DJs really play, one per line.
+# https://github.com/christopheb38/mix-pilot-pairings
+#
+# From artist <TAB> From title <TAB> To artist <TAB> To title [<TAB> count [<TAB> date]]
+#
+# Lines starting with # are comments. Titles are matched loosely by Mix Pilot: "(Original Mix)",
+# "(Extended Mix)", "feat. X", case and accents do not matter; a named remix is its own track.
