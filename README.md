@@ -13,18 +13,21 @@ suggestions get for everybody.
 ## Share your transitions
 
 Mix Pilot already records the transitions you play (setting **Learn my transitions**, on by
-default). They are in a file on your USB stick:
+default). Sharing them takes one press:
 
-```
-MODS/community-mods/mix-pilot/data/my-transitions.tsv
-```
+**From the deck (easiest).** Open **Mod Menu > Mix Pilot** and press **Share my transitions**.
+The row shows how many are new; the deck asks before it sends, then they go over WiFi. Turn on
+**Share automatically** to send new ones by themselves when the deck is online (at most about
+every 10 minutes). Only the track names are sent: no date, no deck ID. They are merged here
+every night ([how it works](relay/README.md)).
 
-**Option 1: a pull request.** Fork this repository, add your lines to the end of
-`pairings.tsv`, and open a pull request. An automatic check tells you if a line is malformed.
+**From a computer.** Your transitions are in `MODS/community-mods/mix-pilot/data/my-transitions.tsv`
+on your USB stick:
 
-**Option 2: an issue.** No GitHub experience needed: open an
-[issue](../../issues/new) titled *My transitions*, and attach your `my-transitions.tsv` (or
-paste its contents). It will be merged for you.
+- fork this repository, add your lines to the end of `pairings.tsv`, and open a **pull
+  request** (an automatic check tells you if a line is malformed), or
+- open an **[issue](../../issues/new)** titled *My transitions* and attach the file (or paste
+  its contents): it will be merged for you.
 
 Please share **transitions you actually played and liked**, with real track names. If a
 transition is already in the file, raise its count instead of adding the same line again.

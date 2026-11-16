@@ -1,4 +1,4 @@
-# Checks pairings.tsv on every push and pull request.
+# Checks pairings.tsv, the merge script and the relay on every push and pull request.
 name: check
 
 on:
@@ -15,3 +15,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/check.py pairings.tsv
+      - run: python3 tools/test_merge.py
+      - run: node relay/test.mjs

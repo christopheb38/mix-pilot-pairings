@@ -1,0 +1,11 @@
+# Cloudflare Worker for the Mix Pilot sharing relay (see relay/README.md).
+name = "mix-pilot-share"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# The KV namespace that holds submissions until the daily merge. Create it with
+#   npx wrangler kv namespace create SUBMISSIONS
+# and put the id it prints here.
+[[kv_namespaces]]
+binding = "SUBMISSIONS"
+id = "REPLACE_WITH_THE_KV_NAMESPACE_ID"
