@@ -8,4 +8,4 @@ compatibility_date = "2026-10-01"
 # and put the id it prints here.
 [[kv_namespaces]]
 binding = "SUBMISSIONS"
-id = "REPLACE_WITH_THE_KV_NAMESPACE_ID"
+id = "79d7c05e5da3447c91c1d4bceedaeba1"
